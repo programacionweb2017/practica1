@@ -45,13 +45,14 @@ class __TwigTemplate_e4e13d9e4d06fcb56709abf79f1cb065e8c771e0c51ae691ce6e49b2044
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["articulo"]) ? $context["articulo"] : $this->getContext($context, "articulo")), "created"), "html", null, true);
             echo "</td>
         <td>Articulo fati</td>
+            <td>Articulo fati2</td>
     </tr>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['articulo'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 18
+        // line 19
         echo "</table>
 ";
     }
@@ -68,6 +69,6 @@ class __TwigTemplate_e4e13d9e4d06fcb56709abf79f1cb065e8c771e0c51ae691ce6e49b2044
 
     public function getDebugInfo()
     {
-        return array (  55 => 18,  45 => 14,  41 => 13,  37 => 12,  34 => 11,  30 => 10,  19 => 1,);
+        return array (  56 => 19,  45 => 14,  41 => 13,  37 => 12,  34 => 11,  30 => 10,  19 => 1,);
     }
 }
