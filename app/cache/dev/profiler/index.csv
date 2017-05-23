@@ -42,7 +42,12 @@ c30cba,::1,GET,http://localhost/primerapp/web/app_dev.php/ayuda/fisica,148605353
 8cf8af,::1,GET,http://localhost/primerapp/web/app_dev.php/index,1495481395,
 27b0f3,::1,GET,http://localhost/primerapp/web/app_dev.php/articulos,1495481478,
 4361f8,::1,GET,http://localhost:82/practica1/web/app_dev.php/articulos,1495580812,
+<<<<<<< HEAD
 d2d06a,::1,GET,http://localhost:82/practica1/web/app_dev.php/articulos,1495580986,
 d6a1db,::1,GET,http://localhost:82/practica1/web/app_dev.php/articulos,1495581726,
 1b17b4,::1,GET,http://localhost:82/practica1/web/app_dev.php/articulos,1495582271,
 1b1b2b,::1,GET,http://localhost:82/practica1/web/app_dev.php/articulos,1495582404,
+=======
+ecdf90,::1,GET,http://localhost/practica1/web/app_dev.php/articulos,1495581973,
+>>>>>>> origin/master
+637bc5,::1,GET,http://localhost:82/practica1/web/app_dev.php/articulos,1495582565,
