@@ -23,6 +23,7 @@ class DefaultController extends Controller
               array('id' => 1, 'title' => 'Articulo numero 1', 'created' => '2011-01-01'),
               array('id' => 2, 'title' => 'Articulo numero 2', 'created' => '2011-01-01'),
               array('id' => 3, 'title' => 'Articulo numero 3', 'created' => '2011-01-01'),
+              array('id' => 4, 'title' => 'Articulo numero 4', 'created' => '2011-01-01'),
           );
           return $this->render("CursoMainBundle:Default:articulos.html.twig", array('articulos' => $articulos));
     }
