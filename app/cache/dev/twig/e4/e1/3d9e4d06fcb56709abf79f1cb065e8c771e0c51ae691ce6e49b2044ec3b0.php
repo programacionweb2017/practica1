@@ -23,38 +23,36 @@ class __TwigTemplate_e4e13d9e4d06fcb56709abf79f1cb065e8c771e0c51ae691ce6e49b2044
         <th>ID</th>
         <th>Titulo</th>
         <th>Fecha de Creacion</th>
+        <th>CampoX</th>
     </tr>
     ";
-        // line 9
+        // line 10
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["articulos"]) ? $context["articulos"] : $this->getContext($context, "articulos")));
         foreach ($context['_seq'] as $context["_key"] => $context["articulo"]) {
-            // line 10
+            // line 11
             echo "    <tr>
         <td>";
-            // line 11
+            // line 12
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["articulo"]) ? $context["articulo"] : $this->getContext($context, "articulo")), "id"), "html", null, true);
             echo "</td>
         <td>";
-            // line 12
+            // line 13
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["articulo"]) ? $context["articulo"] : $this->getContext($context, "articulo")), "title"), "html", null, true);
             echo "</td>
         <td>";
-            // line 13
+            // line 14
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["articulo"]) ? $context["articulo"] : $this->getContext($context, "articulo")), "created"), "html", null, true);
             echo "</td>
+        <td>Articulo fati</td>
     </tr>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['articulo'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 16
+        // line 18
         echo "</table>
-    
-    
-    
-
 ";
     }
 
@@ -70,6 +68,6 @@ class __TwigTemplate_e4e13d9e4d06fcb56709abf79f1cb065e8c771e0c51ae691ce6e49b2044
 
     public function getDebugInfo()
     {
-        return array (  53 => 16,  44 => 13,  40 => 12,  36 => 11,  33 => 10,  29 => 9,  19 => 1,);
+        return array (  55 => 18,  45 => 14,  41 => 13,  37 => 12,  34 => 11,  30 => 10,  19 => 1,);
     }
 }
